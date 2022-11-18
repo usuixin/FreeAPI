@@ -1,11 +1,11 @@
 <?php
-/**
+/***
  * @nick 优客
  * @author 优客API
  * @link https://api.iyk0.cn
  * @date ——
  * @车牌归属地查询
-**/
+***/
 header("content-type:application/json; charset=utf-8");
 $msg=$_REQUEST['word'];
 if(!$msg){
