@@ -1,5 +1,5 @@
 # 开源apis
-开源代码本无价希望各界开发者用于学习尽量避免倒卖 ...
+
 
 Open source code is priceless.
 
