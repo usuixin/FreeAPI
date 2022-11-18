@@ -7,7 +7,7 @@
  * @车牌归属地查询
 **/
 header("content-type:application/json; charset=utf-8");
-$msg=$_REQUEST['msg'];
+$msg=$_REQUEST['word'];
 if(!$msg){
     $json['code']=0;
     $json['msg']="error";
