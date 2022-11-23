@@ -1,6 +1,4 @@
 <?php
-
-<?php
 /***
  * @nick 优客
  * @author 优客API
