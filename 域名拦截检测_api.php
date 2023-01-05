@@ -14,7 +14,7 @@ if($url){
     $ret_json["code"]=201;
     $ret_json["url"]=$url;
     $ret_json["msg"]="url不能为空！";
-    $ret_json['tips']="优客：https://api.iyk0.cn";
+    $ret_json['tips']="随心：https://api.vvsui.com";
     echo ret_json($ret_json);
 }
 
@@ -70,7 +70,7 @@ function qq($url){
             $ret_json["icp_name"]=$json["data"]["results"]["Orgnization"];
             $ret_json["icp"]=$json["data"]["results"]["ICPSerial"];
         }
-        $ret_json['tips']="优客API：https://api.iyk0.cn";
+        $ret_json['tips']="随心API：https://api.vvsui.com";
         return ret_json($ret_json);
     }else{
         $ret_json["code"]=200;
@@ -82,7 +82,7 @@ function qq($url){
             $ret_json["icp_name"]=$json["data"]["results"]["Orgnization"];
             $ret_json["icp"]=$json["data"]["results"]["ICPSerial"];
         }
-        $ret_json['tips']="优客API：https://api.iyk0.cn";
+        $ret_json['tips']="随心API：https://api.vvsui.com";
         return ret_json($ret_json);
     }
     
