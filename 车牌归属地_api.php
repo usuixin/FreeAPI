@@ -1,8 +1,8 @@
 <?php
 /***
- * @nick 优客
- * @author 优客API
- * @link https://api.iyk0.cn
+ * @nick 随心
+ * @author 随心API
+ * @link https://api.vvsui.com
  * @date ——
  * @车牌归属地查询
 ***/
