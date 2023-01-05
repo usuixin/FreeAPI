@@ -44,7 +44,7 @@ function qq($url){
         $ret_json["code"]=201;
         $ret_json["url"]=$url;
         $ret_json["msg"]="获取信息失败！";
-        $ret_json['tips']="优客API：https://api.iyk0.cn";
+        $ret_json['tips']="随心API：https://api.vvsui.com";
         return ret_json($ret_json);
     }
     $url=$json["data"]["results"]["url"];
